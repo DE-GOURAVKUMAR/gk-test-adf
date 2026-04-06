@@ -1,0 +1,9 @@
+{
+	"name": "gk-azure-adf",
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "79855d6e-2aeb-49ec-8991-de1e7eda1187",
+		"tenantId": "293e9d38-576b-401c-a5fe-0cc8824db4a9"
+	}
+}
