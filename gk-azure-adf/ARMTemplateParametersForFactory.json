@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "gk-azure-adf"
+		},
+		"ADLS_conn_accountKey": {
+			"value": ""
+		},
+		"Snowflake_Conn_password": {
+			"value": ""
+		},
+		"ADLS_conn_properties_typeProperties_url": {
+			"value": "https://gkstoragewus3.dfs.core.windows.net/"
+		},
+		"Snowflake_Conn_properties_typeProperties_database": {
+			"value": "sales_mart"
+		},
+		"Snowflake_Conn_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"Snowflake_Conn_properties_typeProperties_host": {
+			"value": "cjgbldu-wa36702.snowflakecomputing.com"
+		}
+	}
+}
